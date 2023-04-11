@@ -5,11 +5,11 @@ module.exports = {
     entry: path.resolve(__dirname, 'src/app.js'),
     output: {
         filename: "[name].[contenthash].js",
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
         clean: true
     },
     devServer: {
-        static: path.resolve(__dirname, 'dist'),
+        static: path.resolve(__dirname, 'docs'),
         hot: true
     },
     optimization: {
