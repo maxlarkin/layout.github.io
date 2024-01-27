@@ -39,13 +39,24 @@ module.exports = {
             },
             {
                 test: /\.css$/i,
-                use: ['style-loader', 'css-loader']
+                use: [
+                    'style-loader',
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            modules: true
+                        }
+                    },
+                    'postcss-loader'
+                ]
             },
+            ///////////////////////////////////////////////////////////////////////////////
             {
                 test: /\.jsx?$/i,
                 exclude: /node_modules/,
                 use: ['babel-loader']
             }
+            /////////////////////////////////////////////////////////////////////////////////////
         ]
     }
 };

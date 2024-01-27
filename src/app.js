@@ -1,14 +1,20 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import './css/styles.css'
+import ReactDOM from 'react-dom/client'
+import styles from './css/styles.css'
+import $ from 'jquery'
 
-console.log('test');
+import Header from './js/Header.jsx'
+import Content from './js/Content.jsx'
 
 function Result() {
+
+
+
     return (
-        <>
-            <h1>title</h1>
-        </>
+        <div className={styles.container}>
+            <Header/>
+            <Content/>
+        </div>
     )
 }
 
