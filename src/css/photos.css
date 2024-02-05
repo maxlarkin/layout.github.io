@@ -1,0 +1,22 @@
+.photosContainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    float: top;
+}
+
+.photo{
+    display: inline-block;
+    margin: 2rem;
+    padding: 1rem;
+    width: 20%;
+    border: 1px solid white;
+    top: 0;
+}
+.photo img{
+    max-width: 100%;
+}
+.photo span{
+    /*display: inline-block;*/
+    /*height: 3rem;*/
+}

@@ -1,9 +1,11 @@
-body, div{
+body, div, h1{
+    display: inline-block;
     padding: 0;
     margin: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    color: white;
 }
 
 body{
@@ -13,8 +15,12 @@ body{
 
 .container{
     width: 100%;
-    padding: 4rem;
-    height: 1000rem;
+    /*height: 1000rem;*/
+}
+
+.content{
+    width: 100%;
+    padding-top: 5rem;
 }
 
 .header{
@@ -22,33 +28,12 @@ body{
     left: 0;
     top: 0;
     width: 100%;
-    height: 3rem;
+    height: 5rem;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
     background: dimgrey;
     border: 1px solid black;
-    padding-left: 4rem;
-}
-
-.header_elem{
-    font-size: 1.5rem;
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    text-align: center;
-    padding-top: 0.5rem;
-    text-transform: uppercase;
-}
-
-.header_menu{
-    width: 100%;
-}
-
-.header_elem:hover{
-    background: white;
 }
 
 .img{
