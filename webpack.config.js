@@ -14,7 +14,7 @@ module.exports = {
         hot: true
     },
     optimization: {
-        usedExports: true,
+        // usedExports: true,
         moduleIds: 'deterministic',
         runtimeChunk: 'single',
         splitChunks: {
