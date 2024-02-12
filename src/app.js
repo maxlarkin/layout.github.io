@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import styles from './css/styles.css'
+import './scss/styles.scss'
+import * as bootstrap from 'bootstrap'
 import Content from './js/Content.jsx'
 
 function Result() {
     return (
-        <div className={styles.container}>
+        <div className='container-fluid'>
             <Content/>
         </div>
     )

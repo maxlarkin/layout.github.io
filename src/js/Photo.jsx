@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from '../css/photos.css'
+import '../scss/photos.scss'
 
 export default function ({obj}) {
     return (
-        <div className={styles.photo} key={obj.id*3}>
+        <div className='photo col-sm-6 col-lg-4 col-xl-3 col-xxl-2' key={obj.id}>
             <img src={obj.url} alt=""/>
             <span>{obj.title}</span>
         </div>

@@ -1,17 +1,17 @@
-body, div, h1{
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    color: white;
-}
+@import "bootstrap/scss/bootstrap";
 
-body{
+body {
+
     font-family: sans-serif;
-    background: #222;
-}
+    color: black;
+    div {
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}}
 
 .container{
     width: 100%;
@@ -32,7 +32,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: dimgrey;
+    background: #919191;
     border: 1px solid black;
 }
 
