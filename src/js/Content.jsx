@@ -7,7 +7,7 @@ import Photos from './Photos.jsx'
 export default function () {
 
     return(
-        <main className='content'>
+        <main className='content container'>
             <Header/>
             <Photos/>
         </main>

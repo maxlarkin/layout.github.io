@@ -18,12 +18,7 @@ export default function () {
             .catch(error => {console.log(error)})
     }, []);
 
-    function changeFilter(text, value) {
-        setFilter({text: value})
-    }
-
     let elements = json.map(el => <Photo obj={el} key={el.id}/>);
-
 
 
     console.log('render');
@@ -32,9 +27,9 @@ export default function () {
         <div className='photosContainer'>
             <div className='filter'>
                 <div className='filters'>
-                    <span style={{fontSize: '2rem'}}>filters: </span>
+                    <span style={{fontSize: '2rem'}}>filters: temporarily unavailable</span>
 
-                    {<Years years={years}/>}
+                    {/*{<Years years={years}/>}*/}
 
                 </div>
 
