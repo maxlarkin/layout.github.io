@@ -30,12 +30,15 @@
     padding: 1rem 1rem;
     border: 1px solid white;
     top: 0;
+    &-active{
+        transform: translate(25%) scale(2);
+    }
 }
+
+
 .photo img{
     max-width: 100%;
-}
-.photo span{
-    display: block;
+    transition: 0.5s
 }
 
 .dropdown-menu{
